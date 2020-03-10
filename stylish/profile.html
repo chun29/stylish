@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-154981634-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-154981634-1");
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="profile.css" />
+    <title>會員中心</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-right">
+        <a href="index.html" class="brand-logo">
+          <img src="images/logo.png" alt="stylish logo" />
+        </a>
+        <div class="catalog" class="catalog-mobile">
+          <ul>
+            <li>
+              <a id="women-product" href="index.html?catalog=women">女裝</a>
+            </li>
+            <div class="line"></div>
+            <li><a id="men-product" href="index.html?catalog=men">男裝</a></li>
+            <div class="line"></div>
+            <li>
+              <a id="accessories-product" href="index.html?catalog=accessories"
+                >配件</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="header-left">
+        <div class="search-bar">
+          <input id="search-product" type="text" />
+          <img id="search-btn" src="images/search.png" />
+        </div>
+        <a class="purchase-cart" href="cart.html">
+          <span id="add-to-cart-amount">0</span>
+          <img src="images/cart.png" />
+        </a>
+        <a href="profile.html" class="membership"
+          ><img src="images/member.png" alt=""
+        /></a>
+      </div>
+    </header>
+    <!-- Mobile bottom bar -->
+    <div class="mobile-bottom-bar">
+      <div class="cart-mobile">
+        <a href="cart.html"
+          ><span id="add-to-cart-amount-mobile">0</span
+          ><img src="images/cart-mobile.png" alt="search" /> 購物車</a
+        >
+      </div>
+      <div class="line"></div>
+      <div class="member-mobile">
+        <a href="profile.html" href="#"
+          ><img src="images/member-mobile.png" alt="search" />會員</a
+        >
+      </div>
+    </div>
+
+    <!-- 分隔線 -->
+    <div class="block"></div>
+
+    <main>
+      <div class="left-container">
+        <div class="member">
+          <img
+            src="images/member-mobile.png"
+            alt=""
+            style="background-color: black;border-radius: 50%;"
+          />
+          <div>
+            <div>Hi,</div>
+            <div style="font-weight: 600;" class="name"></div>
+          </div>
+        </div>
+        <div class="member-list">
+          <ul>
+            <li><img src="images/member_list.png"></img>我的Stylish</li>
+            <li style="background-color: 	#DCDCDC;"><img src="images/order.png"></img>購買訂單</li>
+            <li><img src="images/detail.png"></img>會員專區</li>
+            <li><img src="images/lock.png">帳號設定</li>
+          </ul>
+        </div>
+      </div>
+      <div class="right-container">
+        <h3>會員中心</h3>
+        <hr />
+        <p>親愛的 <span></span> 先生/小姐 您好</p>
+        <div class="order-list">
+          <table>
+            <caption>
+              購買訂單
+            </caption>
+            <tr>
+              <thead>
+                <th>訂單編號</th>
+                <th>最後處理日期</th>
+                <th>訂單狀態</th>
+                <th>付款方式</th>
+                <th>寄送方式</th>
+                <th>金額</th>
+              </thead>
+            </tr>
+            <tr>
+              <tbody>
+                <th>0123456789</th>
+                <th>2019/12/20</th>
+                <th>處理中</th>
+                <th>信用卡</th>
+                <th>郵寄</th>
+                <th>$2099</th>
+              </tbody>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-bar">
+        <ul>
+          <li><a href="#">關於Stylish</a></li>
+          <div class="line-2"></div>
+          <li><a href="#">服務條款</a></li>
+          <div class="line-2"></div>
+          <li><a href="privacy.html">隱私政策</a></li>
+          <div class="line-2"></div>
+        </ul>
+        <ul>
+          <li><a href="#">聯絡我們</a></li>
+          <div class="line-2"></div>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="social-media">
+        <div class="line-logo"><img src="images/line.png" alt="" /></div>
+        <div class="twitter-logo"><img src="images/twitter.png" alt="" /></div>
+        <div class="fb-logo"><img src="images/facebook.png" alt="" /></div>
+      </div>
+      <div class="copyright">© 2018. All rights reserved.</div>
+    </footer>
+    <div class="mobile-copyright">© 2018. All rights reserved.</div>
+
+    <script src="profile.js"></script>
+  </body>
+</html>

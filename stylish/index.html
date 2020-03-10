@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-154981634-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-154981634-1");
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>STYLiSH</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+
+    <header>
+      <div class="header-right">
+        <a href="index.html" class="brand-logo">
+          <img src="images/logo.png" alt="stylish logo" />
+        </a>
+        <div class="catalog" class="catalog-mobile">
+          <ul>
+            <li>
+              <a id="women-product" href="index.html?catalog=women">女裝</a>
+            </li>
+            <div class="line"></div>
+            <li><a id="men-product" href="index.html?catalog=men">男裝</a></li>
+            <div class="line"></div>
+            <li>
+              <a id="accessories-product" href="index.html?catalog=accessories"
+                >配件</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="header-left">
+        <div class="search-bar search-bar-active">
+          <img class="close-btn" src="images/close.png"></img>
+          <input class="search-web-input" type="text" />
+          <img id="search-btn" src="images/search.png" />
+        </div>
+        <a class="purchase-cart" href="cart.html">
+          <span id="add-to-cart-amount">0</span>
+          <img src="images/cart.png" />
+        </a>
+        <a href="profile.html" class="membership"
+          ><img src="images/member.png" alt=""
+        /></a>
+      </div>
+    </header>
+    <!-- Mobile bottom bar -->
+    <div class="mobile-bottom-bar">
+      <div class="cart-mobile">
+        <a href="cart.html"
+          ><span id="add-to-cart-amount-mobile">0</span
+          ><img src="images/cart-mobile.png" /> 購物車</a
+        >
+      </div>
+      <div class="line"></div>
+      <div class="member-mobile">
+        <a href="profile.html" href="#"
+          ><img src="images/member-mobile.png" alt="search" />會員</a
+        >
+      </div>
+    </div>
+
+    <!-- 分隔線 -->
+    <div class="block"></div>
+
+    <!-- Slide Show -->
+    <div id="banner">
+      <a id="slideshow-container">
+        <div id="text"></div>
+      </a>
+    </div>
+
+    <div class="add-product">
+      <main id="product-container" class="product"></main>
+    </div>
+
+    <footer>
+      <div class="footer-bar">
+        <ul>
+          <li><a href="#">關於Stylish</a></li>
+          <div class="line-2"></div>
+          <li><a href="#">服務條款</a></li>
+          <div class="line-2"></div>
+          <li><a href="privacy.html">隱私政策</a></li>
+          <div class="line-2"></div>
+        </ul>
+        <ul>
+          <li><a href="#">聯絡我們</a></li>
+          <div class="line-2"></div>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="social-media">
+        <div class="line-logo"><img src="images/line.png" alt="" /></div>
+        <div class="twitter-logo"><img src="images/twitter.png" alt="" /></div>
+        <div class="fb-logo"><img src="images/facebook.png" alt="" /></div>
+      </div>
+      <div class="copyright">© 2018. All rights reserved.</div>
+    </footer>
+    <div class="mobile-copyright">© 2018. All rights reserved.</div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
